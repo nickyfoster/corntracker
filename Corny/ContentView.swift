@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isLoading = true
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("CornCrave")
+                .padding(10)
+                .font(.largeTitle)
+                .foregroundColor(Color("maize"))
+            Spacer()
+            CornCounterView()
+            Spacer()
+            AppFooter()
         }
-        .padding()
     }
 }
 

@@ -11,6 +11,8 @@
 		019D932E29534840007E5C79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D932D29534840007E5C79 /* ContentView.swift */; };
 		019D933029534841007E5C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D932F29534841007E5C79 /* Assets.xcassets */; };
 		019D933329534841007E5C79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D933229534841007E5C79 /* Preview Assets.xcassets */; };
+		01D56DED29539CC1003F499A /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D56DEC29539CC1003F499A /* Tracker.swift */; };
+		01D56DEF2953C946003F499A /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D56DEE2953C946003F499A /* Footer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		019D932D29534840007E5C79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		019D932F29534841007E5C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019D933229534841007E5C79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01D56DEC29539CC1003F499A /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		01D56DEE2953C946003F499A /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				019D932D29534840007E5C79 /* ContentView.swift */,
 				019D932F29534841007E5C79 /* Assets.xcassets */,
 				019D933129534841007E5C79 /* Preview Content */,
+				01D56DEC29539CC1003F499A /* Tracker.swift */,
+				01D56DEE2953C946003F499A /* Footer.swift */,
 			);
 			path = Corny;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D56DED29539CC1003F499A /* Tracker.swift in Sources */,
 				019D932E29534840007E5C79 /* ContentView.swift in Sources */,
+				01D56DEF2953C946003F499A /* Footer.swift in Sources */,
 				019D932C29534840007E5C79 /* CornyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
